@@ -27,7 +27,7 @@ public class TestUI extends UI {
 		layout.setMargin(true);
 		setContent(layout);
 
-		Button button = new Button("Click Me NOW!!!");
+		Button button = new Button("Click Me NOW!!!asdfa sdfwf wgsjkblfgljjsngjlaengle");
 		button.addClickListener(new Button.ClickListener() {
 			public void buttonClick(ClickEvent event) {
 				layout.addComponent(new Label("Thank you for clicking"));
